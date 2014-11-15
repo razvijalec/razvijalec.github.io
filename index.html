@@ -1,0 +1,12 @@
+---
+layout: default
+title: Razvijalec.si
+---
+
+<h2>Razvijalci:</h2>
+
+<ul>
+{% for dev in site.razvijalci %}
+	<li><h3><a href="{{ dev.url }}">{{ dev.title }}</a></h3><p>{{ dev.tagline }}</p></li>
+{% endfor %}
+</ul>

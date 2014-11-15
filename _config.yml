@@ -1,3 +1,7 @@
-permalink: /:year/:month/:title/
 exclude: ["README.md"]
-highlighter: true
+timezone: Europe/Ljubljana
+collections:
+  razvijalci:
+    collection: Razvijalci
+    output: true
+    permalink: /sem/:name/
