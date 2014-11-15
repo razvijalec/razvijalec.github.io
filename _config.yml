@@ -1,0 +1,4 @@
+permalink: /:year/:month/:title/
+exclude: ["README.md"]
+auto: true
+pygments: true
